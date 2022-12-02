@@ -1,0 +1,11 @@
+.elements {
+    max-width: calc(100% - 400px);
+    margin: auto;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 897px) {
+    .elements {
+        max-width: calc(100% - 38px);
+    }
+}

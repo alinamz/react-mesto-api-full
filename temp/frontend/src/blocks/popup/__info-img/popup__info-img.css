@@ -1,0 +1,15 @@
+.popup__info-img {
+    height: 120px;
+    width: 120px;
+    margin-top: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 0px;
+
+}
+
+@media screen and (max-width: 897px) {
+    .popup__info-img {
+        margin-left: 80px;
+    }
+}

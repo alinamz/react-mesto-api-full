@@ -1,0 +1,20 @@
+.field__submit {
+    width: 358px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    margin: 186px 0 0 0;
+    background: #ffffff;
+    border-radius: 2px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    border: none;
+}
+
+.field__submit:hover {
+    opacity: 0.85;
+}

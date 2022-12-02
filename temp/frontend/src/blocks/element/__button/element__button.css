@@ -1,0 +1,22 @@
+.element__button {
+    background-color: #FFFFFF;
+    border: none;
+    background-image: url(../../../images/like.svg);
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 19px;
+    background-size: 100%;
+    cursor: pointer;
+    position: absolute;
+    top: 22px;
+    right: 20px;
+}
+
+.element__button:hover{
+opacity: 0.5;
+}
+   
+.element__buttonfocus {
+    background-image: url(../../../images/Union.svg);
+}
+

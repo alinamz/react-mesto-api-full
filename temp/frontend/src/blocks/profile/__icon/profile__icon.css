@@ -1,0 +1,19 @@
+.profile__icon {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-right: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("");
+
+}
+
+
+@media screen and (max-width: 897px) {
+    .profile__icon {
+        padding: 0;
+        margin: 0;
+    }
+}

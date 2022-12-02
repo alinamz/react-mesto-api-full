@@ -1,0 +1,27 @@
+.profile__button {
+    background-color: #000000;
+    background-image: url(../../../images/carandash.svg);
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    cursor: pointer;
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    border: 1px solid #FFFFFF;
+    background-position: 50%;
+}
+
+.profile__button:hover{
+    opacity: 0.6;
+}
+
+
+@media screen and (max-width: 897px) {
+    .profile__button {
+        height: 18px;
+        width: 18px;
+        background-size: 7.5px 7.5px;
+        margin-left: 10px;
+    }
+}
+

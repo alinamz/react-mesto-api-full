@@ -1,0 +1,13 @@
+.element__name {
+    background-color: #FFFFFF;
+    min-height: 79px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    justify-content: space-between;
+    padding-left: 21px;
+    padding-right: 15px;
+    margin-top: -4px;
+    position: relative;
+}

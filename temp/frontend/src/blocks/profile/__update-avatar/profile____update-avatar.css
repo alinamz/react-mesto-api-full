@@ -1,0 +1,27 @@
+.profile__update-avatar {
+    background-image: url(../../../images/redaction.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 26px 26px;
+    cursor: pointer;
+    width: 120px;
+    outline: none;
+    height: 120px;
+    opacity: 0;
+    border: none;
+    transition: opacity .5s;
+    position: absolute;
+    top: 160px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.profile__update-avatar:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 897px) {
+    .profile__update-avatar {
+        top: 127px;
+    }
+}
