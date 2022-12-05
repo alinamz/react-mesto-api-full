@@ -10,6 +10,7 @@ module.exports = (req, res, next) => {
     token = auth == null ? null : auth.replace(/^Bearer*\s*/i, '');
     if (!token) {
       next(new LoginFailed('Ошибка входа'));
+      return;
     }
   }
 

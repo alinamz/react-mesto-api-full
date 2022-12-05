@@ -191,6 +191,7 @@ function App() {
         setCurrentUser(profile);
       })
       .catch((err) => {
+        handleExit();
         console.log(err);
       });
     }
