@@ -8,3 +8,6 @@ Frontend https://domenmy.students.nomoredomains.club/sign-in
 
 
 Backend  https://api.domenmy.students.nomoredomains.club/sign-in
+
+
+Ссылка на мой репозиторий https://github.com/alinamz/react-mesto-api-full
